@@ -1,6 +1,6 @@
 #!/bin/bash
-# Created by Serge Guetsa
-# Date:18 feb 2023
+# Created by Serge Guetsa sonkeng
+# Date:23 feb 2023
 # Install docker in centos
 
 # Remove any old versions
@@ -18,4 +18,6 @@ sudo yum install docker-ce -y
 # Start Docker
 sudo systemctl start docker
 sudo systemctl enable docker
+
+#Thanks
 
