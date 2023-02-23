@@ -1,5 +1,5 @@
 #! /bin/bash
-#Author:Serge guetsa
+#Author:Serge guetsa sonkeng
 #Date:18 feb 2023
 
 #Update Server before Jenkins Installation
@@ -25,3 +25,5 @@ sleep 2
 #If you are installing Jenkins on a remote CentOS server that is protected by a firewall you need to port 8080
 sudo firewall-cmd --permanent --zone=public --add-port=8080/tcp
 sudo firewall-cmd --reload
+
+#thanks
