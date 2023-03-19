@@ -7,6 +7,7 @@ sudo yum update -y
 #Installing Java
 sudo yum install java-1.8.0-openjdk-devel
 sleep 2
+sleep 2
 
 #Enable the Jenkins repository
 curl --silent --location http://pkg.jenkins-ci.org/redhat-stable/jenkins.repo | sudo tee /etc/yum.repos.d/jenkins.repo
@@ -21,6 +22,7 @@ systemctl status jenkins
 #Finally enable the Jenkins service to start on system boot.
 sudo systemctl enable jenkins
 #Adjust the Firewall
+sleep 2
 sleep 2
 #If you are installing Jenkins on a remote CentOS server that is protected by a firewall you need to port 8080
 sudo firewall-cmd --permanent --zone=public --add-port=8080/tcp
