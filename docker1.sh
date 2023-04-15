@@ -3,7 +3,8 @@
 # Date:14 april 2023
 # Install docker in centos
 
-# Remove any old versions
+# Update dans Remove any old versions
+yum update docker -y
 sudo yum remove docker docker-common docker-selinux docker-engine
 
 # Install required packages
